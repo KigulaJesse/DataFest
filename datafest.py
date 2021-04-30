@@ -9,6 +9,7 @@ from keras.layers import Dropout
 from keras import regularizers
 import matplotlib.pyplot as plt
 
+
 def yesNo(x):
     if x=="USEmbassy":
         return 1.0
